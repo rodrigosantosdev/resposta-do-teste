@@ -1,6 +1,6 @@
 <template>
    <div>
-      <Title />
+      <Title msg="Cadastro" />
       
       <div class="form container">
       

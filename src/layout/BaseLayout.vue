@@ -1,6 +1,7 @@
 <template>
    <div>
       <Header />
+         <slot />
       <Footer />
    </div>
 </template>
@@ -9,10 +10,10 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 export default {
-   name: 'Layout',
+   name: 'BaseLayout',
    components: { 
-     Header,
-     Footer 
+      Header,
+      Footer
 },
 
 }

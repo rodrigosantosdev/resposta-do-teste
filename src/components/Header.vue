@@ -2,8 +2,8 @@
   <header class="header">
      <div class="container">
         <nav class="navbar">
-            <router-link to="/lista">Lista</router-link>
-            <router-link to="/">Cadastro</router-link>
+            <router-link class="navbar-item" to="/lista">Lista</router-link>
+            <router-link class="navbar-item" to="/">Cadastro</router-link>
         </nav>
     </div>
   </header>
@@ -27,7 +27,10 @@ export default {
    .navbar {
       display: flex;
       justify-content: flex-end;
+   }
+   .navbar-item {
       color: var(--color);
+      margin-left: 30px;
    }
 
 </style>

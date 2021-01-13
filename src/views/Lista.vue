@@ -1,7 +1,6 @@
 <template>
    <div>
-      <Title />
-      <h2>Ola Listas</h2>
+      <Title msg="Lista"/>
    </div>
 </template>
 

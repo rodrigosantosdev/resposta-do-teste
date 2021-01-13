@@ -1,14 +1,17 @@
 <template>
   <div class="wrapper">
       <div class="container">
-         <h1>Cadastro</h1>
+         <h1>{{ msg }}</h1>
       </div>
    </div>
 </template>
 
 <script>
 export default {
-   name: 'Title'
+   name: 'Title',
+   props: {
+      msg: String
+   }
 }
 </script>
 
