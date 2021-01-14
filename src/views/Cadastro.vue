@@ -145,7 +145,8 @@ export default {
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
       color: var(--placeholder-color);
-      border: none;
+      border-radius: 5px;
+      border: 0;
       outline: none;
       box-shadow: 0px 2px 2px var(--input-shadow-color);
       padding: 10px;
