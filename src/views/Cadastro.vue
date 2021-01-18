@@ -6,22 +6,22 @@
       
       <form action="" id="formCadastro">
          <label for="name">Nome</label>
-         <input type="text" name="name">
+         <input type="text" name="name" required>
 
          <label for="email">E-mail</label>
-         <input type="email" name="email">
+         <input type="email" name="email" required>
 
          <label for="cpf">CPF</label>
-         <input type="number" name="cpf" placeholder="111.111.111.01">
+         <input type="number" name="cpf" placeholder="111.111.111.01" required>
 
          <div class="group-label">
       
             <div class="group-label-box">
                <label for="end">Endereço</label>
-               <input type="text" placeholder="Rua, Número e Bairro">
+               <input type="text" placeholder="Rua, Número e Bairro" required>
 
                 <label for="cep">CEP</label>
-               <input type="text" placeholder="22.222.000">
+               <input type="text" placeholder="22.222.000" required>
             </div>
 
             <div class="group-label-box">
@@ -59,9 +59,9 @@
 
             <div class="group-label-box">
                <label for="nomeDoCartao">Nome do Cartão</label>
-               <input type="text" placeholder="Nome Impresso no cartão">
+               <input type="text" placeholder="Nome Impresso no cartão" required>
                <label for="numeroDoCartao">Número do Cartão</label>
-               <input type="number" placeholder="5555 5555 5555 5555">
+               <input type="number" placeholder="5555 5555 5555 5555" required>
             </div>
 
             <div class="group-label-box">
@@ -88,7 +88,7 @@
 
          <hr>
          <p>Seu cartão será debitado em R$ 49,00</p>
-         <a href="" class="button">realizar matrícula</a>
+         <a href="#" class="button">realizar matrícula</a>
          <small>Informações seguras e criptografadas</small>
       </form>
    </div>
@@ -99,7 +99,7 @@
 <script>
 import Title from '../components/Title'
 export default {
-   name: 'Cadastro',
+  name: 'Cadastro',
   components: { Title }
 }
 </script>

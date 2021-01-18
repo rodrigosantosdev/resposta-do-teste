@@ -124,6 +124,7 @@ export default {
       justify-content: space-between;
       border: 1px solid var(--border-color);
       margin-top: 20px;
+      margin-bottom: 80px;
    }
 
    .column {
